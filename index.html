@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nodo Cultura Imbabura</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a2e1e6e6c7.js" crossorigin="anonymous"></script>
+<style>
+  body { margin:0; font-family:'Montserrat', sans-serif; background:#f9f9f9; color:#333; }
+  header, footer { background:#222; color:#fff; padding:1.2rem 2rem; text-align:center; }
+  nav a { color:#fff; margin:0 1rem; text-decoration:none; font-weight:600; }
+  .banner { background:url('banner-nodocultura.jpg') center/cover no-repeat; height:250px; display:flex; align-items:center; justify-content:center; }
+  .banner img { display:none; }
+  .logo { text-align:center; margin: 1rem auto; }
+  .logo img { height:100px; }
+  .section { padding:3rem 2rem; max-width:1200px; margin:auto; }
+  h2, h3 { color:#111; }
+  h1{color:#fff}
+  .candidatos { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; }
+  .card { background:#fff; padding:1.5rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); text-align:center; position:relative; }
+  .card img { width:120px; height:120px; object-fit:cover; border-radius:50%; border:3px solid #555; margin-bottom:1rem; }
+  .card h3 { margin-top:0; color:#444; }
+  .contacto, .redes { background:#eee; border-radius:8px; padding:1.5rem; margin-top:2rem; text-align:center; }
+  .redes a { margin:0 0.5rem; color:#333; font-size:1.5rem; }
+  .propuesta ul { list-style:square; padding-left:1.5rem; }
+  .colectivos-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1rem; }
+  .icono-red { display:inline-flex; align-items:center; gap:0.4rem; margin:0 0.6rem; font-size:1.3rem; color:#333; text-decoration:none; }
+  @media (max-width: 600px) { nav a { display:block; margin:0.5rem 0; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nodo Cultura Imbabura</h1>
+  <nav>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#compromiso">Compromiso</a>
+    <a href="#candidatos">Candidatos</a>
+    <a href="#colectivos">Colectivos</a>
+    <a href="#plan">Plan</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<div class="banner"></div>
+
+
+<section class="section" id="quienes" data-aos="fade-up">
+  <h2>¿Quiénes Somos?</h2>
+  <p>Somos Nodo Cultura, una red plural e inclusiva de artistas, gestores y colectivos culturales que trabajamos por una Imbabura con identidad, participación y desarrollo cultural sostenible.</p>
+</section>
+
+<section class="section" id="compromiso" data-aos="fade-up">
+  <h2>Nuestro Compromiso</h2>
+  <p>Nos comprometemos a construir una gestión cultural participativa, democrática y transparente, enfocada en fortalecer los procesos creativos, el acceso equitativo a los recursos y el reconocimiento de la cultura como derecho humano.</p>
+</section>
+
+<section class="section" id="candidatos" data-aos="fade-up">
+  <h2>Nuestra Candidatura</h2>
+  <div class="candidatos">
+    <div class="card" data-aos="zoom-in">
+      <img src="foto-paola.jpg" alt="Paola Cabrera">
+      <h3>Paola Cabrera</h3>
+      <p><strong>Directora</strong><br>Gestora cultural, bailarina y docente. Fundadora de La Caja, gestora del Festival Zonas Liberadas, Maestra en Artes Escénicas (España).</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <img src="foto-richard.jpg" alt="Richard Suarez">
+      <h3>Richard Suarez</h3>
+      <p><strong>Vocal 1 Principal</strong><br>Artista interdisciplinario, activista ambiental, docente e investigador en saberes ancestrales y sostenibilidad cultural.</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <img src="foto-flor.jpg" alt="Flor Bonilla">
+      <h3>Flor Bonilla</h3>
+      <p><strong>Vocal 2 Principal</strong><br>Gestora comunitaria, música tradicional kichwa (Humazapas), investigadora social y ambiental, experiencia internacional en festivales de cultura.</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <img src="foto-andrea.jpg" alt="Andrea Solano">
+      <h3>Andrea Solano</h3>
+      <p><strong>Vocal 1 Suplente</strong><br>Actriz e investigadora, Maestra en Comunicación, fundadora de Casa Durazno, gestora de proyectos culturales regionales.</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <img src="foto-juan.jpg" alt="Juan Terreros">
+      <h3>Juan Terreros</h3>
+      <p><strong>Vocal 2 Suplente</strong><br>Muralista y artista visual, con experiencia nacional e internacional en festivales de muralismo comunitario y arte urbano.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="colectivos" data-aos="fade-up">
+  <h2>Colectivos de Nodo Cultura</h2>
+  <div class="colectivos-grid">
+    <div>Camino Rojo</div>
+    <div>Casa Absurda</div>
+    <div>Casa Durazno</div>
+    <div>Cholita Fest</div>
+    <div>Escuela del Rock</div>
+    <div>FAVIMBA</div>
+    <div>Fineviolins</div>
+    <div>Gong Epicentro Cultural</div>
+    <div>Hanan Pacha</div>
+    <div>Humazapas</div>
+    <div>Kimbara</div>
+    <div>La Experimental</div>
+    <div>Madera de Mujeres</div>
+    <div>Numu</div>
+    <div>Ojo Callejero</div>
+    <div>Pachay</div>
+    <div>Patacón Funk</div>
+    <div>Socialtegia</div>
+    <div>Teatro Tereques</div>
+    <div>Toca San Antonio</div>
+    <div>Tola</div>
+    <div>Tullpuy</div>
+    <div>Ukupacha Muralismo</div>
+    <div>Yurak Herbolaria</div>
+  </div>
+</section>
+
+<section class="section propuesta" id="plan" data-aos="fade-up">
+  <h2>Propuesta de Gestión Cultural</h2>
+  <h3>1. Democratización</h3>
+  <ul>
+    <li>Garantizar acceso equitativo y democrático a los espacios culturales para todos los actores del territorio.</li>
+    <li>Crear mesas permanentes de diálogo con gestores y colectivos para definir prioridades.</li>
+    <li>Facilitar servicios de asesoría legal y atención médica preventiva a artistas miembros.</li>
+    <li>Descentralizar la gestión cultural para llegar a las comunidades rurales y urbanas.</li>
+  </ul>
+  <h3>2. Formación</h3>
+  <ul>
+    <li>Implementar una Escuela Itinerante de Formación Artística Comunitaria en articulación con universidades.</li>
+    <li>Desarrollar ciclos formativos continuos en gestión cultural, producción artística y comunicación.</li>
+    <li>Ofrecer asesoría técnica para postulaciones a fondos nacionales e internacionales.</li>
+    <li>Generar programas formativos con pertinencia cultural y territorial.</li>
+  </ul>
+  <h3>3. Relación con la Comunidad</h3>
+  <ul>
+    <li>Articular circuitos culturales en toda la provincia para visibilizar el trabajo artístico local.</li>
+    <li>Establecer vínculos estratégicos con instituciones académicas y centros de investigación.</li>
+    <li>Promover programas de internacionalización y movilidad cultural.</li>
+  </ul>
+  <h3>4. Comunicación</h3>
+  <ul>
+    <li>Implementar un Plan Integral de Comunicación con presencia en medios digitales, tradicionales y comunitarios.</li>
+    <li>Crear canales permanentes de difusión e interacción con los actores culturales.</li>
+    <li>Realizar asambleas virtuales e híbridas periódicas para socializar resultados y recoger propuestas.</li>
+  </ul>
+</section>
+
+<section class="section contacto" id="contacto" data-aos="fade-up">
+  <h2>Contáctanos</h2>
+  <p><i class="fas fa-envelope"></i> <a href="mailto:nodoculturaimbabura@gmail.com">nodoculturaimbabura@gmail.com</a></p>
+  <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/593991641710" target="_blank">+593 991641710</a></p>
+</section>
+
+<section class="section redes" data-aos="fade-up">
+  <h2>Síguenos en redes sociales</h2>
+  <a class="icono-red" href="https://facebook.com/NodoCulturaImbabura" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+  <a class="icono-red" href="https://instagram.com/nodoculturaimbabura" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+  <a class="icono-red" href="https://wa.me/593991641710" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a class="icono-red" href="mailto:nodoculturaimbabura@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+</section>
+
+<footer>
+  <p>© 2025 Nodo Cultura Imbabura | Todos los derechos reservados</p>
+</footer>
+
+<script>AOS.init();</script>
+
+</body>
+</html>
